@@ -19,7 +19,7 @@ body, html {
 
 .hero-video {
   position: fixed;
-  /* position: absolute; */
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -432,16 +432,16 @@ body, html {
 }
 
 .parallax-bg {
-  background-image: url('fallBG.png');
+  background-image: url('assets/fallBG.png');
   z-index: 1;
   opacity: 0.7;
 }
 .parallax-family {
-  background-image: url('fallFamily.png');
+  background-image: url('assets/fallFamily.png');
   z-index: 2;
 }
 .parallax-leaves {
-  background-image: url('fallLeaves.png');
+  background-image: url('assets/fallLeaves.png');
   z-index: 3;
 }
 
@@ -579,16 +579,16 @@ body, html {
   pointer-events: none;
 }
 .snow-bg {
-  background-image: url('snowFamily.png');
+  background-image: url('assets/snowFamily.png');
   z-index: 1;
   opacity: 0.7;
 }
 .snow-family {
-  background-image: url('snowBall.png');
+  background-image: url('assets/snowBall.png');
   z-index: 2;
 }
 .snow-flakes {
-  background-image: url('snowFlakes.png');
+  background-image: url('assets/snowFlakes.png');
   z-index: 3;
 }
 
