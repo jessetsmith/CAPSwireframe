@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Nonprofit Wireframe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Inter:400,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="navbar-logo">
+            <img src="image.png" alt="CAPS Logo" class="navbar-logo-image">
+            <span class="navbar-logo-text">CAPS</span>
+        </div>
+        <ul class="navbar-menu">
+            <li><a href="#">Home</a></li>
+            <li class="nav-dropdown">
+                <button class="nav-dropdown-btn">Who We Are</button>
+                <ul class="nav-dropdown-list">
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Our Staff</a></li>
+                    <li><a href="#">Our Impact</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </li>
+            <li class="nav-dropdown">
+                <button class="nav-dropdown-btn">What We Do</button>
+                <ul class="nav-dropdown-list">
+                    <li><a href="#">CASA</a></li>
+                    <li><a href="#">Child & Family Advocacy Center</a></li>
+                    <li><a href="#">Center for Nurturing Families</a></li>
+                    <li><a href="#">Healthy Families</a></li>
+                    <li><a href="#">Supervised Visitations</a></li>
+                </ul>
+            </li>
+            <li class="nav-dropdown">
+                <button class="nav-dropdown-btn">Client Resources</button>
+                <ul class="nav-dropdown-list">
+                    <li><a href="#">Prevention Center</a></li>
+                    <li><a href="#">Get Trained</a></li>
+                    <li><a href="#">Child Safety</a></li>
+                    <li><a href="#">Parenting Tips</a></li>
+                    <li><a href="#">Helpful Links</a></li>
+                </ul>
+            </li>
+            <li class="nav-dropdown">
+                <button class="nav-dropdown-btn">Special Events</button>
+                <ul class="nav-dropdown-list">
+                    <li><a href="#">Child Abuse Prevention Month</a></li>
+                    <li><a href="#">Child Safety</a></li>
+                    <li><a href="#">Annual Dinner & Auction</a></li>
+                </ul>
+            </li>
+            <li class="nav-dropdown">
+                <button class="nav-dropdown-btn">Get Involved</button>
+                <ul class="nav-dropdown-list">
+                    <li><a href="#">Donate</a></li>
+                    <li><a href="#">Volunteer</a></li>
+                    <li><a href="#">Wish List</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <a href="#" class="donate-btn">Donate</a>
+    </nav>
+
+    <section class="hero">
+        <video class="hero-video" autoplay muted loop playsinline>
+            <source src="CapsHero.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="hero-overlay"></div>
+        <div class="pinwheel-container">
+            <div class="pinwheel-stem"></div>
+            <svg id="pinwheel" class="pinwheel" width="80" height="80" viewBox="0 0 80 80" aria-label="Pinwheel"
+                xmlns="http://www.w3.org/2000/svg">
+                <g>
+                    <circle cx="40" cy="40" r="8" fill="#b3d6ec" />
+                    <path
+                        d="M40 12 Q44 28 60 20 Q52 36 68 40 Q52 44 60 60 Q44 52 40 68 Q36 52 20 60 Q28 44 12 40 Q28 36 20 20 Q36 28 40 12Z"
+                        fill="#21759b" />
+                    <path
+                        d="M40 12 Q42 28 60 20 Q50 36 68 40 Q50 44 60 60 Q42 52 40 68 Q38 52 20 60 Q30 44 12 40 Q30 36 20 20 Q38 28 40 12Z"
+                        fill="#e6f0f7" opacity="0.7" />
+                    <circle cx="40" cy="40" r="4" fill="#21759b" />
+                </g>
+            </svg>
+            <div class="pinwheel-stem-small"></div>
+            <svg id="pinwheel-small" class="pinwheel-small" width="40" height="40" viewBox="0 0 80 80"
+                aria-label="Pinwheel Small" xmlns="http://www.w3.org/2000/svg">
+                <g>
+                    <circle cx="40" cy="40" r="8" fill="#b3d6ec" />
+                    <path
+                        d="M40 12 Q44 28 60 20 Q52 36 68 40 Q52 44 60 60 Q44 52 40 68 Q36 52 20 60 Q28 44 12 40 Q28 36 20 20 Q36 28 40 12Z"
+                        fill="#21759b" />
+                    <path
+                        d="M40 12 Q42 28 60 20 Q50 36 68 40 Q50 44 60 60 Q42 52 40 68 Q38 52 20 60 Q30 44 12 40 Q30 36 20 20 Q38 28 40 12Z"
+                        fill="#e6f0f7" opacity="0.7" />
+                    <circle cx="40" cy="40" r="4" fill="#21759b" />
+                </g>
+            </svg>
+        </div>
+        <div class="hero-content">
+            <h1>Empowering Families. Preventing Child Abuse.</h1>
+            <p>Supporting parents and children for a brighter future.</p>
+            <a href="#get-involved" class="hero-get-involved-btn">Get Involved</a>
+        </div>
+    </section>
+    <section class="placeholder-section cards-section" style="font-size: 1.5em">
+        <div class="info-card">
+            <h1>Our Mission</h1>
+            <p>To support families to ensure that every child lives a life free from abuse and neglect.
+            </p>
+        </div>
+        <div class="info-card">
+            <h1>Our Vision</h1>
+            <p>A community where children are safe and families thrive.</p>
+        </div>
+        <div class="info-card values-card">
+            <h1>Our Values</h1>
+            <div class="value-item">
+                <button class="value-header" data-value="hope">Rooted in Hope</button>
+            </div>
+            <div class="value-item">
+                <button class="value-header" data-value="excellence">Called to Excellence</button>
+            </div>
+            <div class="value-item">
+                <button class="value-header" data-value="relationships">Committed to Relationships</button>
+            </div>
+        </div>
+    </section>
+    <section class="parallax-cinematic">
+        <div class="parallax-layer parallax-solid-bg"></div>
+        <div class="parallax-layer parallax-bg"></div>
+        <div class="parallax-layer parallax-family"></div>
+        <div class="parallax-layer parallax-leaves"></div>
+        <div class="parallax-cinematic-overlay"></div>
+        <div class="parallax-content">
+            <!-- Optional: Add a heading or call-to-action here -->
+        </div>
+    </section>
+
+    <section class="placeholder-section">
+        <h1>The CAPS Story</h1>
+        <p style="text-align: center; padding: 0 5em 0 5em; font-size: 1.5em;">Since its beginning over 40 years ago,
+            CAPS has
+            been the leader in
+            preventing child abuse and neglect in
+            Elkhart County.
+            CAPS has worked diligently to protect our community's children and strengthen families by offering a variety
+            of programs
+            and services. Over the past 40 years, CAPS has adapted to the changing needs of children and families.
+            Today, CAPS is
+            equipping families with the knowledge, support and inspiration they need to thrive.</p>
+        <a href="#" class="learn-more-btn">Learn More</a>
+    </section>
+    <section class="parallax-cinematic snow-cinematic">
+        <div class="parallax-layer snow-solid-bg"></div>
+        <div class="parallax-layer snow-bg"></div>
+        <div class="parallax-layer snow-family"></div>
+        <div class="parallax-layer snow-flakes"></div>
+        <div class="parallax-cinematic-overlay"></div>
+        <div class="parallax-content">
+            <!-- Optional: Add a heading or call-to-action here -->
+        </div>
+    </section>
+    <section class="placeholder-section">
+        <h1>Our Impact</h1>
+        <p style="text-align: center; padding: 0 5em 0 5em; font-size: 1.5em;">STRONG FAMILIES MAKE STRONG COMMUNITIES,
+            WHERE CHILDREN THRIVE.<br><br>
+            <!-- Most parents want to do the best job they can in raising their children. It is OK to ask for help! By
+            providing parents
+            with the tools and resources needed to support parenting skills and to strengthen families, CAPS can equip
+            families to
+            build strong, healthy lives.</p> -->
+        <section class="impact-stats-section">
+            <h2 class="impact-main-heading">AND OUR WORK IS MAKING A DIFFERENCE!</h2>
+            <p class="impact-supporting">
+                Elkhart County abuse and neglect rates are 60% lower than the State of Indiana's rates.
+            </p>
+            <div class="impact-stats-row">
+                <div class="impact-stat">
+                    <div class="impact-stat-number" data-target="2269">0</div>
+                    <div class="impact-stat-label">CHILDREN SERVED</div>
+                </div>
+                <div class="impact-divider"></div>
+                <div class="impact-stat">
+                    <div class="impact-stat-number" data-target="2287">0</div>
+                    <div class="impact-stat-label">ADULTS SERVED</div>
+                </div>
+                <div class="impact-divider"></div>
+                <div class="impact-stat">
+                    <div class="impact-stat-number" data-target="1635">0</div>
+                    <div class="impact-stat-label">FAMILIES SERVED</div>
+                </div>
+            </div>
+        </section>
+        <a href="#" class="learn-more-btn">Learn More</a>
+    </section>
+    <section class="get-involved-section">
+        <h2 class="get-involved-heading">Get Involved with CAPS</h2>
+        <p class="get-involved-text">Join us in making a difference for children and families in our community. You can
+            help by volunteering, donating, or staying connected through our newsletter.</p>
+        <div class="get-involved-buttons">
+            <a href="#" class="get-involved-btn volunteer-btn">Volunteer</a>
+            <a href="#" class="get-involved-btn donate-btn-alt">Donate</a>
+            <a href="#" class="get-involved-btn newsletter-btn">Signup for Our Newsletter</a>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col footer-brand">
+                <img src="image.png" alt="CAPS Logo" class="footer-logo">
+                <div class="footer-org-name">CAPS</div>
+                <div class="footer-contact">
+                    <div>1000 W Hively Ave.<br>Elkhart, IN 46517</div>
+                    <div>Phone: <a href="tel:15742952277">(574) 295-2277</a></div>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f footer-icon"></i></a>
+                    <a href="#" aria-label="X"><i class="fab fa-x-twitter footer-icon"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram footer-icon"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fab fa-youtube footer-icon"></i></a>
+                    <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in footer-icon"></i></a>
+                </div>
+            </div>
+            <div class="footer-col footer-links">
+                <div class="footer-dropdown">
+                    <button class="footer-dropdown-btn">Who We Are</button>
+                    <ul class="footer-dropdown-list">
+                        <li><a href="#">Our Story</a></li>
+                        <li><a href="#">Our Staff</a></li>
+                        <li><a href="#">Our Impact</a></li>
+                        <li><a href="#">News</a></li>
+                    </ul>
+                </div>
+                <div class="footer-dropdown">
+                    <button class="footer-dropdown-btn">What We Do</button>
+                    <ul class="footer-dropdown-list">
+                        <li><a href="#">CASA</a></li>
+                        <li><a href="#">Child & Family Advocacy Center</a></li>
+                        <li><a href="#">Center for Nurturing Families</a></li>
+                        <li><a href="#">Healthy Families</a></li>
+                        <li><a href="#">Supervised Visitations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-dropdown">
+                    <button class="footer-dropdown-btn">Client Resources</button>
+                    <ul class="footer-dropdown-list">
+                        <li><a href="#">Prevention Center</a></li>
+                        <li><a href="#">Get Trained</a></li>
+                        <li><a href="#">Child Safety</a></li>
+                        <li><a href="#">Parenting Tips</a></li>
+                        <li><a href="#">Helpful Links</a></li>
+                    </ul>
+                </div>
+                <div class="footer-dropdown">
+                    <button class="footer-dropdown-btn">Special Events</button>
+                    <ul class="footer-dropdown-list">
+                        <li><a href="#">Child Abuse Prevention Month</a></li>
+                        <li><a href="#">Child Safety</a></li>
+                        <li><a href="#">Annual Dinner & Auction</a></li>
+                    </ul>
+                </div>
+                <div class="footer-dropdown">
+                    <button class="footer-dropdown-btn">Get Involved</button>
+                    <ul class="footer-dropdown-list">
+                        <li><a href="#">Donate</a></li>
+                        <li><a href="#">Volunteer</a></li>
+                        <li><a href="#">Wish List</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2025 CAPS. All rights reserved.
+        </div>
+    </footer>
+    <div id="value-pinwheel-modal" class="value-pinwheel-modal">
+        <div class="value-pinwheel-modal-content">
+            <button class="value-pinwheel-modal-close" aria-label="Close Value">&times;</button>
+            <div class="value-pinwheel-modal-pinwheel-stem-wrap">
+                <!-- SVG: stem is a rect, behind the pinwheel, and connected -->
+                <svg id="modal-value-pinwheel" width="120" height="120" viewBox="0 0 80 120" aria-label="Pinwheel"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <!-- Stem: thinner, moved up, behind the pinwheel -->
+                    <rect x="38" y="36" width="6" height="70" rx="3" fill="#4a8c6e" />
+                    <!-- Pinwheel blades (spinning) -->
+                    <g class="pinwheel-blades" style="transform-origin: 40px 40px;">
+                        <path
+                            d="M40 12 Q44 28 60 20 Q52 36 68 40 Q52 44 60 60 Q44 52 40 68 Q36 52 20 60 Q28 44 12 40 Q28 36 20 20 Q36 28 40 12Z"
+                            fill="#b3d6ec" stroke="#21759b" stroke-width="1" />
+                        <path
+                            d="M40 12 Q42 28 60 20 Q50 36 68 40 Q50 44 60 60 Q42 52 40 68 Q38 52 20 60 Q30 44 12 40 Q30 36 20 20 Q38 28 40 12Z"
+                            fill="#e6f0f7" opacity="0.7" />
+                    </g>
+                    <!-- Pinwheel hub (static) -->
+                    <circle cx="40" cy="40" r="8" fill="#b3d6ec" />
+                    <circle cx="40" cy="40" r="4" fill="#21759b" />
+                </svg>
+            </div>
+            <div class="value-pinwheel-modal-text">
+                <h2 id="value-modal-title"></h2>
+                <p id="value-modal-desc"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
