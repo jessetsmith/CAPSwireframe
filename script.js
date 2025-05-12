@@ -298,3 +298,38 @@ window.addEventListener("scroll", () => {
     nextSection.style.transform = "none";
   }
 });
+
+// Parallax and scale effect for .swimming-cinematic
+window.addEventListener("scroll", function () {
+  const section = document.querySelector(".swimming-cinematic");
+  if (!section) return;
+
+  const rect = section.getBoundingClientRect();
+  const windowHeight = window.innerHeight;
+  const scrollY = window.scrollY || window.pageYOffset;
+  const sectionTop = section.offsetTop;
+  const sectionHeight = section.offsetHeight;
+
+  // How far into the section have we scrolled? (0 = top, 1 = bottom)
+  let progress =
+    (scrollY + windowHeight - sectionTop) / (sectionHeight + windowHeight);
+  progress = Math.max(0, Math.min(1, progress));
+
+  // Parallax: each layer moves at a different speed
+  const bg = document.querySelector(".swimming-bg");
+  const family = document.querySelector(".swimming-family");
+  const ball = document.querySelector(".swimming-ball");
+
+  if (bg)
+    bg.style.transform = `translateY(${progress * 30}px) scale(${
+      1 + progress * 0.15
+    })`;
+  if (family)
+    family.style.transform = `translateY(${progress * 60}px) scale(${
+      1 + progress * 0.22
+    })`;
+  if (ball)
+    ball.style.transform = `translateY(${progress * 90}px) scale(${
+      1 + progress * 0.3
+    })`;
+});
