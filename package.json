@@ -1,0 +1,23 @@
+{
+  "name": "caps---wireframe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessetsmith/CAPSwireframe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessetsmith/CAPSwireframe/issues"
+  },
+  "homepage": "https://jessetsmith.github.io/CAPSwireframe",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
